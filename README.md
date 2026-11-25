@@ -1,47 +1,59 @@
-# Computational Biology Portfolio — Apinya Sintavee
+# Apinya Sintavee
 
-**Bioinformatics | Computational Biology | Molecular Modeling | Machine Learning**
+**Computational Drug Discovery | Structural Bioinformatics | Scientific Computing**
 
-Email: sintavee406@gmail.com  
-Location: Thailand  
-M.Sc. Student, Genetic Engineering and Bioinformatics — Kasetsart University
+M.Sc. student in Genetic Engineering and Bioinformatics, Kasetsart University, Thailand
+[Email](mailto:sintavee406@gmail.com) · [Research portfolio](docs/index.html) · [Project index](PROJECTS.md)
 
-## About Me
-Master’s student with research experience in structural bioinformatics, molecular docking, virtual screening, peptide–protein interaction analysis, sequence-based data analysis, and machine learning for biological datasets.
+I build reproducible computational workflows that connect molecular structure, virtual screening, simulation, and data analysis. My graduate research investigates cyclic hexapeptides across JAK1, JAK2, and JAK3. I also work on enzyme-inhibitor screening, network pharmacology, and research software.
 
-## Featured Research Project
-### Computational Screening of Cyclic Peptides for JAK Kinase Selectivity
-Large-scale computational screening of approximately **160,000 CX4C cyclic peptide sequences** against **JAK1, JAK2, and JAK3**.
+## Featured research
 
-**Key components**
-- Molecular docking and virtual screening
-- Cross-target ranking and selectivity analysis
-- Amino-acid composition and position-specific analysis
-- Machine-learning classification and regression
-- Docking-pose and protein–peptide interaction interpretation
-- Candidate prioritization and scientific visualization
-- Exploratory molecular-dynamics assessment
+### Computational Prioritization of Cyclic Hexapeptides for JAK1, JAK2, and JAK3 Using Molecular Docking, Machine Learning, and Molecular Dynamics
 
-## Conference Proceeding & Poster Presentation
-**The 20th International Symposium of the Protein Society of Thailand (PST2026)**  
-Bangkok, Thailand | 5–7 August 2026
+This thesis combines a CX4C cyclic-peptide library, GPU-accelerated docking against three JAK-family targets, sequence-based machine learning, pose and interaction assessment, and molecular dynamics (MD) of prioritized complexes. Docking and ML scores are **computational prioritization signals**, not measured potency or confirmed biological selectivity.
 
-Presented research on cyclic peptide screening for JAK selectivity using molecular docking, cross-target analysis, and machine learning. The work was also included in the conference proceeding.
+| Research stage | What I do | Public example |
+| --- | --- | --- |
+| Library and docking | Generate cyclic-peptide structures; prepare receptors and ligands; run and quality-check target-specific screening | [Docking-score distributions](docs/assets/docking-distributions.png) |
+| Data analysis and ML | Compare score profiles; encode peptide sequences; validate predictive models against docking-derived labels | [Model validation](docs/assets/ml-validation.png) |
+| Structural interpretation | Inspect peptide poses and binding-site contacts in three dimensions | [JAK1 pocket, wide](docs/assets/jak1-pocket-wide.png) · [close](docs/assets/jak1-pocket-close.png) |
+| MD follow-up | Assess complex behavior with trajectory-based structural measures | [Earlier completed three-peptide panel](docs/assets/peptide-rmsd.png) |
 
-## Selected Computational Projects
-- **Acetylcholinesterase:** docking with donepezil reference and pyridoquinoxaline candidates
-- **Human Pancreatic Lipase:** docking and catalytic-site interaction analysis
-- **α-Amylase / α-Glucosidase:** flavonoid docking and catalytic-site interpretation
-- **Leishmania CYP51:** azole docking and heme-environment interaction analysis
+The completed MD example above covers **CPYWWC, CGGWWC, and CWGGWC** across JAK1/2/3 (three independent 100 ns trajectories per complex). A separate, expanded five-peptide × three-JAK study is ongoing; its outcomes are not presented as complete here. See the [research note](jak_project_summary.md) for scope, interpretation, and disclosure boundaries.
 
-## Technical Skills
-**Computational Biology:** Structural bioinformatics, molecular docking, virtual screening, protein–ligand interactions, protein–peptide interactions, sequence analysis, amino-acid analysis, binding-site analysis, cross-target ranking
+![JAK1 binding-pocket context for CPYWWC, earlier completed study](docs/assets/jak1-pocket-wide.png)
 
-**Machine Learning & Data Analysis:** Python, classification, regression, feature analysis, model evaluation, biological data preprocessing, scientific visualization, candidate prioritization
+*JAK1 surface and docked CPYWWC pose from the earlier completed study. This illustration supports structural interpretation, not a claim of experimental inhibition.*
 
-**Tools:** GOLD, AutoDock Vina, MGLTools, Discovery Studio, PyMOL, UCSF Chimera, ChimeraX, Avogadro
+## Other research
 
-**Databases:** RCSB PDB, NCBI, UniProt, PubChem
+These projects are described by **question, workflow, and skills**, without unpublished results.
 
-## Availability
-Open to remote, hybrid, part-time, internship, research assistant, junior bioinformatics, computational biology, scientific data analysis, and computational drug discovery opportunities.
+| Project | Approach |
+| --- | --- |
+| [Topaz formulation: BPH and ED](PROJECTS.md#topaz-formulation-and-network-pharmacology) | GOLD docking, compound-target mapping, PPI networks, GO/KEGG enrichment |
+| [Tyrosinase cyclic-peptide screening](PROJECTS.md#tyrosinase-cyclic-peptide-screening) | Large-library sequence QC, docking-data analysis, SQL, ML |
+| [Acetylcholinesterase](PROJECTS.md#acetylcholinesterase-ache) | Pyridoquinoxaline docking with PDB 7E3H and donepezil reference |
+| [Pancreatic lipase](PROJECTS.md#pancreatic-lipase) | Inhibitor screening, catalytic-triad interpretation, orlistat reference |
+| [Alpha-amylase](PROJECTS.md#alpha-amylase) | Docking and catalytic-residue analysis with PDB 1B2Y |
+| [Alpha-glucosidase](PROJECTS.md#alpha-glucosidase-mgam) | MGAM inhibitor screening with PDB 2QMJ |
+| [Leishmania CYP51](PROJECTS.md#leishmania-cyp51) | Target-structure assessment for inhibitor discovery |
+
+## Research software
+
+- **Ligand Fetcher:** retrieves and prepares ligand structures for structure-based workflows, with source and chemistry checks.
+- **Cyclic-Peptide Library Generator:** builds cyclic-hexapeptide structures for high-throughput computational screening.
+
+The public repository contains [small educational analysis scripts](peptide_sequence_analysis.py) and documentation. Full thesis datasets, trajectories, proprietary software inputs, and unpublished partner-project results are intentionally not distributed.
+
+## Methods and tools
+
+**Molecular modeling:** AutoDock-GPU/AutoDock4, GOLD, AutoDock Vina, GROMACS, PyMOL, ChimeraX, protein–ligand and protein–peptide interaction analysis.
+
+**Data and software:** Python, pandas, NumPy, scikit-learn, R, SQL, Linux/WSL, GPU computing, visualization, workflow automation.
+**Bioinformatics:** sequence analysis, structural databases, cheminformatics, network pharmacology, Cytoscape, STRING, GO/KEGG enrichment.
+
+## Contact
+
+I am interested in computational drug discovery, CADD, structural bioinformatics, and AI-enabled molecular research roles. Contact me at **[sintavee406@gmail.com](mailto:sintavee406@gmail.com)**.
