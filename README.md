@@ -3,7 +3,7 @@
 **Computational Drug Discovery | Structural Bioinformatics | Scientific Computing**
 
 M.Sc. student in Genetic Engineering and Bioinformatics, Kasetsart University, Thailand
-[Email](mailto:sintavee406@gmail.com) · [Research portfolio](https://sintavee406-hash.github.io/computational-biology-portfolio/) · [Project index](PROJECTS.md)
+[Email](mailto:sintavee406@gmail.com) · [LinkedIn](https://www.linkedin.com/in/apinya-sintavee-798571375/) · [Research portfolio](https://sintavee406-hash.github.io/computational-biology-portfolio/) · [Project index](PROJECTS.md)
 
 I build reproducible computational workflows that connect molecular structure, virtual screening, simulation, and data analysis. My graduate research investigates cyclic hexapeptides across JAK1, JAK2, and JAK3. I also work on enzyme-inhibitor screening, network pharmacology, and research software.
 
@@ -59,4 +59,4 @@ The public repository contains [small educational analysis scripts](peptide_sequ
 
 ## Contact
 
-I am interested in computational drug discovery, CADD, structural bioinformatics, and AI drug discovery roles. I am especially drawn to teams connecting molecular data and machine learning with experimental validation. Contact me at **[sintavee406@gmail.com](mailto:sintavee406@gmail.com)**.
+I am interested in computational drug discovery, CADD, structural bioinformatics, and AI drug discovery roles. I am especially drawn to teams connecting molecular data and machine learning with experimental validation. Contact me by [email](mailto:sintavee406@gmail.com) or [LinkedIn](https://www.linkedin.com/in/apinya-sintavee-798571375/).

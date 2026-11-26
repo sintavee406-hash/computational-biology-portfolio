@@ -28,4 +28,4 @@ Topaz BPH/ED docking and network pharmacology · Tyrosinase cyclic-peptide data 
 
 Python · R · SQL · Linux/WSL · AutoDock-GPU/AutoDock4 · GOLD · AutoDock Vina · GROMACS · PyMOL · ChimeraX · scikit-learn · Cytoscape
 
-**Contact:** [sintavee406@gmail.com](mailto:sintavee406@gmail.com)
+**Contact:** [Email](mailto:sintavee406@gmail.com) · [LinkedIn](https://www.linkedin.com/in/apinya-sintavee-798571375/)
