@@ -18,6 +18,7 @@ All descriptions below distinguish computational analysis from experimental vali
 
 - **Question:** Explore potential molecular and network-level associations relevant to benign prostatic hyperplasia (BPH) and erectile dysfunction (ED).
 - **Workflow:** curate annotated compounds, retrieve and prepare structures, dock against SRD5A2 (PDB 7BW1) and PDE5 (PDB 1UDU) with GOLD/ChemPLP, map compound–target and disease associations, construct Cytoscape/STRING networks, and assess GO/KEGG enrichment.
+- **Analysis design:** keep compound identity, structure source, docking target, and network annotation traceable so molecular poses and pathway-level hypotheses can be interpreted separately. Docking scores are not experimental target inhibition.
 - **Natural-compound work:** includes preparation or screening of examples such as chrysin, daidzein, brucine, and 18β-glycyrrhetinic acid.
 - **Skills shown:** cheminformatics, molecular docking, source tracing, network pharmacology, functional enrichment, data integration.
 - **Disclosure:** workflow only; unpublished findings and rankings are not shown.
@@ -26,6 +27,7 @@ All descriptions below distinguish computational analysis from experimental vali
 
 - **Question:** Analyze a large cyclic-peptide sequence and docking dataset for tyrosinase-focused prioritization.
 - **Workflow:** sequence-library quality control, docking-output organization, SQL/data integration, feature analysis, and ML evaluation with attention to label provenance and dataset coverage.
+- **Analysis design:** connect peptide sequences to their docking records, inspect missing or duplicate entries, and keep model evaluation tied to the origin of its labels rather than treating predicted scores as measured activity.
 - **Skills shown:** large-scale scientific data processing, Python, SQL, ML, reproducibility checks.
 - **Disclosure:** no unpublished rankings or results.
 
@@ -33,30 +35,35 @@ All descriptions below distinguish computational analysis from experimental vali
 
 - **Question:** Examine pyridoquinoxaline compounds as potential AChE binders.
 - **Workflow:** structure-based preparation and docking with PDB 7E3H; use donepezil as a reference; inspect pose and binding-site interactions.
+- **Interpretation:** use the reference compound to contextualize pose placement and contacts, without equating similar docking patterns with comparable biological potency.
 - **Skills shown:** receptor/ligand preparation, reference-based docking, structural interpretation.
 
 ## Pancreatic lipase
 
 - **Question:** Screen potential pancreatic-lipase inhibitors in the catalytic site.
 - **Workflow:** prepare the enzyme and candidate ligands, dock with orlistat as a reference, inspect the catalytic triad and surrounding contacts.
+- **Interpretation:** assess predicted placement against the catalytic-site geometry and the reference pose; a docking pose alone does not demonstrate enzyme inhibition.
 - **Skills shown:** enzyme active-site analysis, docking, reference-compound comparison.
 
 ## Alpha-amylase
 
 - **Question:** Explore candidate binding near the alpha-amylase catalytic site.
 - **Workflow:** structure-based docking with PDB 1B2Y and catalytic-residue interpretation.
+- **Interpretation:** relate predicted ligand contacts to the catalytic region while keeping structural plausibility separate from measured activity.
 - **Skills shown:** protein structure handling, docking, interaction analysis.
 
 ## Alpha-glucosidase (MGAM)
 
 - **Question:** Explore candidate inhibitors of maltase-glucoamylase.
 - **Workflow:** prepare MGAM structure (PDB 2QMJ), dock candidates, and inspect active-site geometry.
+- **Interpretation:** compare candidate placement within the same target-defined pocket; avoid cross-target score comparisons without context.
 - **Skills shown:** target preparation, molecular docking, binding-site assessment.
 
 ## Leishmania CYP51
 
 - **Question:** Assess a parasite sterol-biosynthesis target for inhibitor discovery.
 - **Workflow:** inspect CYP51 structure, binding-site and heme environment, and evaluate candidate poses.
+- **Interpretation:** account for the cofactor-containing pocket when reading poses; structural proximity to heme is a hypothesis, not evidence of mechanism.
 - **Skills shown:** structural bioinformatics, heme-protein interpretation, docking analysis.
 
 ## Ligand Fetcher

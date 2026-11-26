@@ -4,6 +4,8 @@
 
 M.Sc. researcher in Genetic Engineering and Bioinformatics at Kasetsart University, Thailand. I develop computational workflows for molecular docking, cyclic-peptide screening, molecular dynamics, machine learning, and research data analysis.
 
+I am interested in AI drug discovery opportunities that connect rigorous molecular-data analysis and predictive modeling with experimentally testable questions.
+
 ### Featured thesis
 
 **Computational Prioritization of Cyclic Hexapeptides for JAK1, JAK2, and JAK3 Using Molecular Docking, Machine Learning, and Molecular Dynamics**

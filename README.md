@@ -49,11 +49,14 @@ The public repository contains [small educational analysis scripts](peptide_sequ
 
 ## Methods and tools
 
-**Molecular modeling:** AutoDock-GPU/AutoDock4, GOLD, AutoDock Vina, GROMACS, PyMOL, ChimeraX, protein–ligand and protein–peptide interaction analysis.
+**Structure-based discovery:** receptor and ligand preparation, virtual screening, reference-guided docking, pose assessment, protein–ligand and protein–peptide interaction analysis; AutoDock-GPU/AutoDock4, GOLD/ChemPLP, AutoDock Vina, PyMOL, ChimeraX.
 
-**Data and software:** Python, pandas, NumPy, scikit-learn, R, SQL, Linux/WSL, GPU computing, visualization, workflow automation.
-**Bioinformatics:** sequence analysis, structural databases, cheminformatics, network pharmacology, Cytoscape, STRING, GO/KEGG enrichment.
+**Simulation:** GROMACS molecular dynamics, trajectory quality control, structural follow-up with RMSD and interactions, Linux/WSL and GPU computing.
+
+**Data and machine learning:** Python, pandas, NumPy, R, SQL, scikit-learn, peptide-sequence features, model validation, statistical summaries, scientific visualization, and workflow automation.
+
+**Bioinformatics and software:** sequence analysis, structural databases, cheminformatics, RDKit, PeptideBuilder, chemical-data APIs, network pharmacology, Cytoscape, STRING, and GO/KEGG enrichment.
 
 ## Contact
 
-I am interested in computational drug discovery, CADD, structural bioinformatics, and AI-enabled molecular research roles. Contact me at **[sintavee406@gmail.com](mailto:sintavee406@gmail.com)**.
+I am interested in computational drug discovery, CADD, structural bioinformatics, and AI drug discovery roles. I am especially drawn to teams connecting molecular data and machine learning with experimental validation. Contact me at **[sintavee406@gmail.com](mailto:sintavee406@gmail.com)**.

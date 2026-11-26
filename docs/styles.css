@@ -24,6 +24,7 @@ nav a:hover,.header-contact:hover,.text-link:hover,.section-more:hover{color:var
 .hero-copy{width:min(100% - 64px,1380px);margin:auto;padding-top:clamp(52px,7vh,95px)}
 .hero-copy>*{max-width:610px}
 .eyebrow,.section-index{font-size:11px;letter-spacing:.12em;font-weight:800;margin:0;text-transform:uppercase;color:var(--teal)}
+.hero .eyebrow{max-width:330px}
 .hero h1{font-size:clamp(60px,6.5rem,112px);line-height:.96;letter-spacing:0;margin:25px 0 30px;font-weight:800}
 .title-point{color:var(--coral)}
 .hero-lede{font-size:clamp(23px,2rem,32px);line-height:1.22;font-weight:650;margin:0 0 20px;max-width:480px}
@@ -94,10 +95,12 @@ figcaption span{color:var(--teal);font-weight:800;font-size:11px;margin-right:12
 .projects-section h2,.software-section h2{margin-bottom:15px}
 .section-lede{max-width:700px;color:var(--muted);margin:0 0 35px}
 .project-list{border-top:2px solid var(--ink)}
-.project-list article{display:grid;grid-template-columns:55px minmax(0,1fr) 240px;gap:20px;padding:20px 0;border-bottom:1px solid #bfcfcd;align-items:start}
+.project-list article{display:grid;grid-template-columns:55px minmax(0,1fr) 240px;gap:20px;padding:25px 0;border-bottom:1px solid #bfcfcd;align-items:start}
 .project-no{font:700 13px/1.5 Consolas,monospace;color:var(--teal)}
 .project-list h3{font-size:20px;line-height:1.25;margin:0 0 5px}
-.project-list p{margin:0;color:#405258;max-width:760px;font-size:14px}
+.project-list p{margin:9px 0 0;color:#405258;max-width:760px;font-size:15px;line-height:1.5}
+.project-list p strong{color:var(--ink)}
+.project-list .project-evidence{color:#275f62}
 .project-tags{justify-self:end;text-align:right;font-size:12px;color:var(--blue);font-weight:700}
 .section-more{display:inline-block;margin-top:27px;color:var(--ink);font-weight:750;font-size:14px;text-decoration:none;border-bottom:2px solid var(--teal);padding-bottom:5px}
 .software-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;border-top:2px solid var(--ink)}
@@ -111,7 +114,7 @@ figcaption span{color:var(--teal);font-weight:800;font-size:11px;margin-right:12
 .about-grid h2{margin:15px 0 0}
 .about-grid>div:nth-child(2)>p{font-size:20px;line-height:1.48;margin:3px 0 32px}
 dl{margin:0;border-top:1px solid #b8ceca}
-dl div{display:grid;grid-template-columns:120px 1fr;gap:18px;padding:13px 0;border-bottom:1px solid #b8ceca}
+dl div{display:grid;grid-template-columns:120px 1fr;gap:18px;padding:16px 0;border-bottom:1px solid #b8ceca}
 dt{font-weight:750;color:var(--teal)}
 dd{margin:0}
 footer{background:var(--ink);color:#fff;padding:60px 0}
