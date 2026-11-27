@@ -12,6 +12,8 @@ I am interested in AI drug discovery opportunities that connect rigorous molecul
 
 My graduate research integrates a custom-code-generated library of 160,000 CX4C cyclic-hexapeptide sequences, GPU docking across JAK1/2/3, cross-target score analysis, sequence-based ML, structural interpretation, and selected MD follow-up. The public portfolio shares representative figures from completed analyses, with computational scores interpreted as prioritization metrics rather than experimental activity.
 
+I ran the computational thesis workflow on a single personal laptop with a local GPU and Linux/WSL, without an HPC cluster.
+
 [Explore the research portfolio](https://sintavee406-hash.github.io/computational-biology-portfolio/) · [Read the research note](https://github.com/sintavee406-hash/computational-biology-portfolio/blob/main/jak_project_summary.md)
 
 ![JAK1 pocket context with CPYWWC](https://raw.githubusercontent.com/sintavee406-hash/computational-biology-portfolio/main/docs/assets/jak1-pocket-wide.png)

@@ -19,6 +19,8 @@ JAK-family kinases are related therapeutic targets. Their structural similarity 
 
 I wrote code to enumerate the four variable CX4C positions over 20 amino acids, producing 20^4 = 160,000 distinct sequences, and to generate cyclic-peptide structures for the screening library. The workflow then spans structural checks; protein and ligand preparation; GPU-accelerated docking; score-distribution and cross-target analysis; sequence encoding and ML validation; three-dimensional pose inspection; and GROMACS-based MD follow-up. Target-specific docking baselines are evaluated within their own score distributions. Visualized poses are illustrative; a pose or contact is not by itself evidence of biological activity.
 
+The computational workflow was run on one personal laptop with a local GPU and Linux/WSL, without an HPC cluster.
+
 The completed *earlier* MD panel includes CPYWWC, CGGWWC, and CWGGWC against JAK1/2/3, with three 100 ns trajectories per complex. An *expanded* five-peptide × three-JAK MD study is a separate ongoing effort; no completed results from it are claimed here.
 
 ## Selected results and visual evidence

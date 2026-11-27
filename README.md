@@ -13,6 +13,8 @@ I build reproducible computational workflows that connect molecular structure, v
 
 For this thesis, I wrote code to enumerate **160,000 CX4C cyclic-hexapeptide sequences** (20 amino-acid choices at each of four variable positions) and generate peptide structures for screening. The workflow combines GPU-accelerated docking against three JAK-family targets, sequence-based machine learning, pose and interaction assessment, and molecular dynamics (MD) of prioritized complexes. Docking and ML scores are **computational prioritization signals**, not measured potency or confirmed biological selectivity.
 
+I carried out the computational thesis workflow on a single personal laptop, using its local GPU and Linux/WSL environment rather than an HPC cluster.
+
 | Research stage | What I do | Public example |
 | --- | --- | --- |
 | Library and docking | Enumerate 160,000 CX4C sequences with custom code; generate cyclic-peptide structures; prepare receptors and ligands; run and quality-check target-specific screening | [Docking-score distributions](docs/assets/docking-distributions.png) |

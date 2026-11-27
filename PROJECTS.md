@@ -8,6 +8,7 @@ All descriptions below distinguish computational analysis from experimental vali
 
 - **Question:** How can cyclic-peptide candidates be prioritized across three related kinase domains using complementary computational evidence?
 - **Workflow:** custom-code enumeration of 160,000 CX4C sequences (20 choices at each of four variable positions) and peptide-structure generation → receptor/ligand preparation → GPU docking and quality control → cross-target profile analysis → sequence-based ML validation → structural inspection → selected MD follow-up.
+- **Computing environment:** a single personal laptop with a local GPU and Linux/WSL; no HPC cluster was used for the thesis workflow.
 - **Skills shown:** high-throughput virtual screening, peptide modeling, Python/R analysis, ML evaluation, visualization, Linux/WSL and GPU workflows, research communication.
 - **Public examples:** selected docking-score distributions, ML validation plot, JAK1–CPYWWC binding-site views, and peptide RMSD from the earlier completed three-peptide panel.
 - **Status:** Graduate thesis in progress. The earlier three-peptide MD panel is complete; the expanded five-peptide panel is separate and ongoing.
