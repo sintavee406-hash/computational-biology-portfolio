@@ -10,14 +10,14 @@ JAK-family kinases are related therapeutic targets. Their structural similarity 
 
 ## Objectives
 
-1. Build and screen a CX4C cyclic-hexapeptide library against JAK1, JAK2, and JAK3 kinase structures.
+1. Build and screen a 160,000-sequence CX4C cyclic-hexapeptide library against JAK1, JAK2, and JAK3 kinase structures.
 2. Examine docking-score profiles, pose quality, and protein–peptide contacts across targets.
 3. Test whether peptide sequence features predict docking-derived outcomes under appropriate validation.
 4. Use selected MD trajectories to examine the behavior of prioritized complexes, without treating MD as a direct assay of inhibition.
 
 ## Methods
 
-The workflow spans peptide generation and structural checks; protein and ligand preparation; GPU-accelerated docking; score-distribution and cross-target analysis; sequence encoding and ML validation; three-dimensional pose inspection; and GROMACS-based MD follow-up. Target-specific docking baselines are evaluated within their own score distributions. Visualized poses are illustrative; a pose or contact is not by itself evidence of biological activity.
+I wrote code to enumerate the four variable CX4C positions over 20 amino acids, producing 20^4 = 160,000 distinct sequences, and to generate cyclic-peptide structures for the screening library. The workflow then spans structural checks; protein and ligand preparation; GPU-accelerated docking; score-distribution and cross-target analysis; sequence encoding and ML validation; three-dimensional pose inspection; and GROMACS-based MD follow-up. Target-specific docking baselines are evaluated within their own score distributions. Visualized poses are illustrative; a pose or contact is not by itself evidence of biological activity.
 
 The completed *earlier* MD panel includes CPYWWC, CGGWWC, and CWGGWC against JAK1/2/3, with three 100 ns trajectories per complex. An *expanded* five-peptide × three-JAK MD study is a separate ongoing effort; no completed results from it are claimed here.
 

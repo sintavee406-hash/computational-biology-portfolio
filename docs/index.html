@@ -50,8 +50,8 @@
           <div class="thesis-label"><span class="vertical-rule"></span><p>Three related kinase targets.<br>One integrated computational workflow.</p></div>
           <div class="research-prose">
             <div class="prose-row"><h3>Background</h3><p>JAK-family kinases are related therapeutic targets. Their similarity makes cross-target interpretation important when prioritizing cyclic-peptide candidates. Computational ranking can generate hypotheses, but cannot establish biochemical potency or cellular selectivity.</p></div>
-            <div class="prose-row"><h3>Objectives</h3><p>Screen CX4C cyclic hexapeptides across JAK1/2/3, examine target-wise docking profiles and poses, evaluate sequence-based models trained on docking-derived labels, and follow selected complexes with MD.</p></div>
-            <div class="prose-row"><h3>Methods</h3><p>Peptide generation and structural checks → receptor/ligand preparation → GPU docking and quality control → score-profile analysis → ML validation → 3D interaction assessment → GROMACS trajectories.</p></div>
+            <div class="prose-row"><h3>Objectives</h3><p>Screen a 160,000-sequence CX4C cyclic-hexapeptide library across JAK1/2/3, examine target-wise docking profiles and poses, evaluate sequence-based models trained on docking-derived labels, and follow selected complexes with MD.</p></div>
+            <div class="prose-row"><h3>Methods</h3><p>I wrote code to enumerate four variable positions over 20 amino acids (20<sup>4</sup> sequences) and generate cyclic-peptide structures. Structural checks → receptor/ligand preparation → GPU docking and quality control → score-profile analysis → ML validation → 3D interaction assessment → GROMACS trajectories.</p></div>
           </div>
         </div>
 
@@ -108,7 +108,7 @@
     <section class="section software-section" id="software"><div class="container"><div class="section-top"><p class="section-index">04 / RESEARCH SOFTWARE</p></div><h2>Tools built for research workflows.</h2>
       <div class="software-grid">
         <article><span class="tool-number">01</span><h3>Ligand Fetcher</h3><p>Retrieves and prepares ligand structures for molecular modeling, with identifier resolution, 3D-structure retrieval, fallback conformer generation, and quality checks.</p><div>Python · RDKit · Chemical data APIs</div></article>
-        <article><span class="tool-number">02</span><h3>Cyclic-Peptide Library Generator</h3><p>Enumerates and constructs cyclic-hexapeptide structures for screening-scale workflows, with cyclization and output checks.</p><div>Python · PeptideBuilder · Parallel processing</div></article>
+        <article><span class="tool-number">02</span><h3>Cyclic-Peptide Library Generator</h3><p>My Python workflow enumerated 160,000 CX4C sequences and generated cyclic-hexapeptide structures for JAK screening, with cyclization and output checks. The unpublished library is not distributed here.</p><div>Python · PeptideBuilder · Parallel processing</div></article>
       </div>
     </div></section>
 

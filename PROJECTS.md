@@ -7,7 +7,7 @@ All descriptions below distinguish computational analysis from experimental vali
 **Computational Prioritization of Cyclic Hexapeptides for JAK1, JAK2, and JAK3 Using Molecular Docking, Machine Learning, and Molecular Dynamics**
 
 - **Question:** How can cyclic-peptide candidates be prioritized across three related kinase domains using complementary computational evidence?
-- **Workflow:** CX4C library generation → receptor/ligand preparation → GPU docking and quality control → cross-target profile analysis → sequence-based ML validation → structural inspection → selected MD follow-up.
+- **Workflow:** custom-code enumeration of 160,000 CX4C sequences (20 choices at each of four variable positions) and peptide-structure generation → receptor/ligand preparation → GPU docking and quality control → cross-target profile analysis → sequence-based ML validation → structural inspection → selected MD follow-up.
 - **Skills shown:** high-throughput virtual screening, peptide modeling, Python/R analysis, ML evaluation, visualization, Linux/WSL and GPU workflows, research communication.
 - **Public examples:** selected docking-score distributions, ML validation plot, JAK1–CPYWWC binding-site views, and peptide RMSD from the earlier completed three-peptide panel.
 - **Status:** Graduate thesis in progress. The earlier three-peptide MD panel is complete; the expanded five-peptide panel is separate and ongoing.
@@ -75,7 +75,7 @@ All descriptions below distinguish computational analysis from experimental vali
 
 ## Cyclic-Peptide Library Generator
 
-- **Purpose:** generate cyclic-hexapeptide structures at screening scale.
-- **Workflow:** enumerate sequence space, construct peptide structures, perform cyclization and output checks, organize parallel generation for downstream docking.
+- **Purpose:** build the 160,000-sequence CX4C library used in the JAK1/2/3 thesis screening workflow.
+- **Workflow:** use custom Python code to enumerate four variable positions over 20 amino acids (20^4 sequences), construct peptide structures, perform cyclization and output checks, and organize parallel generation for downstream docking.
 - **Skills shown:** Python, peptide modeling, Biopython/PeptideBuilder, parallel processing, workflow design.
 - **Disclosure:** project description only; full unpublished screening library is not bundled.

@@ -11,11 +11,11 @@ I build reproducible computational workflows that connect molecular structure, v
 
 ### Computational Prioritization of Cyclic Hexapeptides for JAK1, JAK2, and JAK3 Using Molecular Docking, Machine Learning, and Molecular Dynamics
 
-This thesis combines a CX4C cyclic-peptide library, GPU-accelerated docking against three JAK-family targets, sequence-based machine learning, pose and interaction assessment, and molecular dynamics (MD) of prioritized complexes. Docking and ML scores are **computational prioritization signals**, not measured potency or confirmed biological selectivity.
+For this thesis, I wrote code to enumerate **160,000 CX4C cyclic-hexapeptide sequences** (20 amino-acid choices at each of four variable positions) and generate peptide structures for screening. The workflow combines GPU-accelerated docking against three JAK-family targets, sequence-based machine learning, pose and interaction assessment, and molecular dynamics (MD) of prioritized complexes. Docking and ML scores are **computational prioritization signals**, not measured potency or confirmed biological selectivity.
 
 | Research stage | What I do | Public example |
 | --- | --- | --- |
-| Library and docking | Generate cyclic-peptide structures; prepare receptors and ligands; run and quality-check target-specific screening | [Docking-score distributions](docs/assets/docking-distributions.png) |
+| Library and docking | Enumerate 160,000 CX4C sequences with custom code; generate cyclic-peptide structures; prepare receptors and ligands; run and quality-check target-specific screening | [Docking-score distributions](docs/assets/docking-distributions.png) |
 | Data analysis and ML | Compare score profiles; encode peptide sequences; validate predictive models against docking-derived labels | [Model validation](docs/assets/ml-validation.png) |
 | Structural interpretation | Inspect peptide poses and binding-site contacts in three dimensions | [JAK1 pocket, wide](docs/assets/jak1-pocket-wide.png) · [close](docs/assets/jak1-pocket-close.png) |
 | MD follow-up | Assess complex behavior with trajectory-based structural measures | [Earlier completed three-peptide panel](docs/assets/peptide-rmsd.png) |
@@ -43,7 +43,7 @@ These projects are described by **question, workflow, and skills**, without unpu
 ## Research software
 
 - **Ligand Fetcher:** retrieves and prepares ligand structures for structure-based workflows, with source and chemistry checks.
-- **Cyclic-Peptide Library Generator:** builds cyclic-hexapeptide structures for high-throughput computational screening.
+- **Cyclic-Peptide Library Generator:** custom Python workflow used to enumerate a 160,000-sequence CX4C library and build cyclic-hexapeptide structures for high-throughput computational screening.
 
 The public repository contains [small educational analysis scripts](peptide_sequence_analysis.py) and documentation. Full thesis datasets, trajectories, proprietary software inputs, and unpublished partner-project results are intentionally not distributed.
 

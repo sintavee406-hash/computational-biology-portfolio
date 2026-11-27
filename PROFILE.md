@@ -10,7 +10,7 @@ I am interested in AI drug discovery opportunities that connect rigorous molecul
 
 **Computational Prioritization of Cyclic Hexapeptides for JAK1, JAK2, and JAK3 Using Molecular Docking, Machine Learning, and Molecular Dynamics**
 
-My graduate research integrates a CX4C peptide library, GPU docking across JAK1/2/3, cross-target score analysis, sequence-based ML, structural interpretation, and selected MD follow-up. The public portfolio shares representative figures from completed analyses, with computational scores interpreted as prioritization metrics rather than experimental activity.
+My graduate research integrates a custom-code-generated library of 160,000 CX4C cyclic-hexapeptide sequences, GPU docking across JAK1/2/3, cross-target score analysis, sequence-based ML, structural interpretation, and selected MD follow-up. The public portfolio shares representative figures from completed analyses, with computational scores interpreted as prioritization metrics rather than experimental activity.
 
 [Explore the research portfolio](https://sintavee406-hash.github.io/computational-biology-portfolio/) · [Read the research note](https://github.com/sintavee406-hash/computational-biology-portfolio/blob/main/jak_project_summary.md)
 
